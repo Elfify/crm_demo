@@ -1,3 +1,33 @@
 h1 {
   color: red;
 }
+
+#home-nav {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+#home-nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#home-nav ul li {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#home-nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
