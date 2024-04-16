@@ -4,7 +4,7 @@ Please replace this with a description of the changes.
 
 # Ticket 
 
-[Ticket Number](link-to-ticket)
+[Issue Number](https://github.com/Elfify/crm_demo/issues/{issue_number})
 
 ## Type of change
 - [ ] Bug fix
