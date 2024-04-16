@@ -1,1 +1,16 @@
-<h1>Hello world </h1>
+<%= stylesheet_link_tag("home") %>
+<div id=home-content>
+  <nav> 
+    <ul>
+      <li><%= link_to("Home", root_path) %></li>
+      <li><%= link_to("About", about_path) %></li>
+      <li><%= link_to("Login", login_path) %></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <%= turbo_frame_tag "index_main_content" do %>
+      <%= render "home" %>
+    <% end %>
+  </main>
+</div>
